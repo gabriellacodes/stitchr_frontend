@@ -6,7 +6,7 @@ import Logo from "../images/stitchr_logo.fw.png";
 function HomePage() {
     return (
         <div>
-            <img src={Logo} />
+            <img id="main-logo" src={Logo} />
         <div id="project-list">
             {allProjects.map((projectData, key) => {
                 return <ProjectCard key={key} projectData={projectData} />;

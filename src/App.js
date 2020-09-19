@@ -1,15 +1,16 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import Nav from "./components/Nav/Nav";
+import SideNav from "./components/Nav/SideNavBar";
 import Home from "./pages/HomePage";
 import ProjectPage from "./pages/ProjectPage";
 import "./App.css"
+import "./components/Nav/SideNavBar.css"
 
 export default function App() {
   return (
     <Router>
       <div>
-        <Nav />
+        <SideNav />
 
         <Switch>
           <Route path="/project">
