@@ -1,6 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+HK&display=swap');
+
 #project-list {
     display: grid;
     grid-template-columns: 30% 30% 30%;
     column-gap: 10px;
     row-gap: 10px;
+}
+
+body {
+    background-color: #fffafb;
+}
+
+nav {
+    font-family: "Noto Sans HK";
+    justify-content: space-around;
 }
