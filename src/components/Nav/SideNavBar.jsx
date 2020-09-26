@@ -1,20 +1,13 @@
 import React from "react";
 import { slide as Menu } from "react-burger-menu";
+import { Link } from "react-router-dom";
 
 export default props => {
   return (
     <Menu>
-      <a className="menu-item" href="/">
-        Home
-      </a>
-
-      <a className="menu-item" href="../pages/AboutPage.jsx">
-        About
-      </a>
-
-      <a className="menu-item" href="../pages/ContactPage.jsx">
-        Contact Us
-      </a>
+      <Link to="/" className="menu-item">Home</Link>
+      <Link to="/AboutPage" className="menu-item">About</Link>
+      <Link to="/ContactPage" className="menu-item">Contact</Link>
     </Menu>
   );
 };
