@@ -86,7 +86,7 @@ function SignUp() {
       <TextInput
         id="profile_photo"
         type="url"
-        label="Profile Photo"
+        label="Profile Phot URL"
         onChange={handleChange}
       />
       <TextInput

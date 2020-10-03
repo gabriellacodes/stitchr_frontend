@@ -1,5 +1,5 @@
 import React from 'react'
-// import "./TitleText.css"
+import "./TitleText.css"
 
 function TitleText({ title }) {
     return (
