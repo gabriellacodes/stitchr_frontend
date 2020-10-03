@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Nav from "./components/Nav/NavBar";
 import SideNav from "./components/Nav/SideNavBar";
 import Home from "./pages/HomePage";
+import Header from "./components/Header/Header";
 import ProjectPage from "./pages/ProjectPage";
 import LoginPage from "./pages/LoginPage";
 import ContactPage from "./pages/ContactPage";
@@ -12,8 +13,13 @@ import "./App.css"
 import "./components/Nav/SideNavBar.css"
 
 export default function App() {
+  
+  
   return (
     <Router>
+      <Route path="/">
+        <Header />
+      </Route>
       <div>
         <Nav />
 
@@ -30,9 +36,9 @@ export default function App() {
           <Route path="/AboutPage">
             <AboutPage />
           </Route>
-          {/* <Route path="/SignUp">
+          <Route path="/SignUp">
             <SignUp />
-          </Route> */}
+          </Route>
           <Route path="/">
             <Home />
           </Route>
