@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import { useHistory } from "react-router-dom";
-import TextInput from "../components/TextInput/TextInput";
-import Button from "../components/Button/Button";
-import TitleText from "../components/TitleText/TitleText";
-// import "./SignUp.css";
+import TextInput from "../../components/TextInput/TextInput";
+import Button from "../../components/Button/Button";
+import TitleText from "../../components/TitleText/TitleText";
+import "./SignUp.css";
 
 function SignUp() {
 

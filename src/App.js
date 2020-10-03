@@ -1,13 +1,13 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Nav from "./components/Nav/NavBar";
-import Home from "./pages/HomePage";
+import Home from "./pages/HomePage/HomePage";
 import Header from "./components/Header/Header";
-import ProjectPage from "./pages/ProjectPage";
-import LoginPage from "./pages/LoginPage";
-import ContactPage from "./pages/ContactPage";
-import AboutPage from "./pages/AboutPage";
-import SignUp from "./pages/SignUp";
+import ProjectPage from "./pages/ProjectPage/ProjectPage";
+import LoginPage from "./pages/LoginPage/LoginPage";
+import ContactPage from "./pages/ContactPage/ContactPage";
+import AboutPage from "./pages/AboutPage/AboutPage";
+import SignUp from "./pages/SignUp/SignUp";
 import "./App.css"
 
 export default function App() {

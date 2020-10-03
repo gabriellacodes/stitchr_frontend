@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
+import './ProjectPage.css'
 
 function ProjectPage () {
     const [projectData, setProjectData] = useState({ likes: [] });  const { id } = useParams();
