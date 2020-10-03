@@ -1,7 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Nav from "./components/Nav/NavBar";
-import SideNav from "./components/Nav/SideNavBar";
 import Home from "./pages/HomePage";
 import Header from "./components/Header/Header";
 import ProjectPage from "./pages/ProjectPage";
@@ -10,19 +9,17 @@ import ContactPage from "./pages/ContactPage";
 import AboutPage from "./pages/AboutPage";
 import SignUp from "./pages/SignUp";
 import "./App.css"
-import "./components/Nav/SideNavBar.css"
 
 export default function App() {
   
   
   return (
     <Router>
+      <Nav />
       <Route path="/">
         <Header />
       </Route>
       <div>
-        <Nav />
-
         <Switch>
           <Route path="/project/:id">
             <ProjectPage />

@@ -1,0 +1,26 @@
+.menu-container {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #2d3a3a;
+}
+
+.menu-item {
+    float: left;
+    display: block;
+    color: #fffafb;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Helvetica;
+    font-weight: 2em;
+}
+
+.login, .signup {
+    float: right;
+}
+
+.menu-item:hover {
+    background-color: #485a5a;
+}

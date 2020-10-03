@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&family=Cousine&display=swap');
+
+.form-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 1em;
+    width: 60em;
+    font-family: 'Courier Prime';
+}
+
+.form-input {
+    width: 30%;
+    margin-left: 25px;
+    padding: 0.5em;
+    margin-top: 0.5em;
+    align-items: center;
+    border: none;
+    border-bottom: 0.05em solid #040f0f;
+    background-color: #fffafb;
+    text-align: center;
+}
+
+.form-input:focus {
+    outline-style: none;
+    border-bottom: 0.1em solid black;
+}
+
+.form-input:-webkit-autofill,
+.form-input:-webkit-autofill:hover, 
+.form-input:-webkit-autofill:focus, 
+.form-input:-webkit-autofill:selected {
+    background-color: #f9f9f9;
+}
