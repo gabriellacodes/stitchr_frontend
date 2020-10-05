@@ -8,6 +8,7 @@ import LoginPage from "./pages/LoginPage/LoginPage";
 import ContactPage from "./pages/ContactPage/ContactPage";
 import AboutPage from "./pages/AboutPage/AboutPage";
 import SignUp from "./pages/SignUp/SignUp";
+import CreateProject from "./pages/CreateProject/CreateProject";
 import "./App.css"
 
 export default function App() {
@@ -35,6 +36,9 @@ export default function App() {
           </Route>
           <Route path="/SignUp">
             <SignUp />
+          </Route>
+          <Route path="/CreateProject">
+              <CreateProject />
           </Route>
           <Route path="/">
             <Home />

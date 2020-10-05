@@ -10,6 +10,7 @@ function Nav() {
             <Link to="/ContactPage" className="menu-item">Contact</Link>
             <Link to="/LoginPage" className="menu-item login">Login</Link>
             <Link to="/SignUp" className="menu-item signup">Sign Up</Link>
+            <Link to="/CreateProject" className="menu-item">Create Project</Link>
         </nav>
     );
 }

@@ -1,0 +1,6 @@
+.text-area {
+    height: 6em;
+    width: 40%;
+    resize: none;
+    background-color: white;
+}
